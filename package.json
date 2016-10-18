@@ -1,0 +1,29 @@
+{
+  "name": "elision",
+  "author": "Allan MacLeod",
+  "version": "1.0.0",
+  "keywords": [],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Elision",
+    "uuid": "c154856c-1d6e-4441-ad98-f5ba159e1870",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
