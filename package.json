@@ -1,29 +1,42 @@
 {
-  "name": "elision",
-  "author": "Allan MacLeod",
-  "version": "1.0.0",
-  "keywords": [],
-  "private": true,
-  "dependencies": {},
-  "pebble": {
-    "displayName": "Elision",
-    "uuid": "c154856c-1d6e-4441-ad98-f5ba159e1870",
-    "sdkVersion": "3",
-    "enableMultiJS": true,
-    "targetPlatforms": [
-      "aplite",
-      "basalt",
-      "chalk",
-      "diorite"
-    ],
-    "watchapp": {
-      "watchface": true
+    "author": "Allan MacLeod",
+    "dependencies": {},
+    "keywords": [],
+    "name": "elision",
+    "pebble": {
+        "displayName": "Elision",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "dummy"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/Signika Negative Regular.ttf",
+                    "name": "FONT_SIGNIKA_NEGATIVE_REGULAR_10",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Averia Serif Libre Regular.ttf",
+                    "name": "FONT_AVERIA_SERIF_LIBRE_REGULAR_10",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "c154856c-1d6e-4441-ad98-f5ba159e1870",
+        "watchapp": {
+            "watchface": true
+        }
     },
-    "messageKeys": [
-      "dummy"
-    ],
-    "resources": {
-      "media": []
-    }
-  }
+    "version": "1.0.0"
 }
