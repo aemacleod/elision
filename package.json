@@ -14,13 +14,25 @@
             "media": [
                 {
                     "file": "fonts/Signika Negative Regular.ttf",
-                    "name": "FONT_SIGNIKA_NEGATIVE_REGULAR_10",
+                    "name": "FONT_SIGNIKA_NEGATIVE_REGULAR_20",
                     "targetPlatforms": null,
                     "type": "font"
                 },
                 {
                     "file": "fonts/Averia Serif Libre Regular.ttf",
-                    "name": "FONT_AVERIA_SERIF_LIBRE_REGULAR_10",
+                    "name": "FONT_AVERIA_SERIF_LIBRE_REGULAR_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Ubuntu Regular.ttf",
+                    "name": "FONT_UBUNTU_REGULAR_23",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto Condensed Regular.ttf",
+                    "name": "FONT_ROBOTO_CONDENSED_REGULAR_23",
                     "targetPlatforms": null,
                     "type": "font"
                 }
